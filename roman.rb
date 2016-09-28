@@ -1,13 +1,3 @@
-# Problem: Convert whole numbers to roman numerals
-#          that has more than 3 digit numbers
-#
-# Solution: Declare an array that contains the possible
-#           combinations of numbers when converted to roman
-#           numerals. Iterate the number to the array, if
-#           it is greater than or equal subtract it then push
-#           it into another array that will print the output of
-#           the convertion, then repeat the loop until the number is 0.
-
 print "Convertion to Roman Numeral from Whole Number\nEnter the number to be converted: "
 number = Integer(gets) rescue false
 while !number                                       #loop until entered number is integer
